@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <div id="input-form">
+      <form id="main-form" accept-charset="utf-8">
+        <div class="row">
+          <label for="firstName">First Name</label>
+          <input type="text" class="inputStrip" id="firstName" placeholder="First Name" align="right" />
+        </div>
+        <div class="row">
+          <label for="lastName">Last Name</label>
+          <input type="text" class="inputStrip" id="lastName" placeholder="Last Name" />
+        </div>
+        <div class="row">
+          <label for="age">Age</label>
+          <input type="number" class="inputStrip" id="age" placeholder="Age" />
+        </div>
+        <div class="row">
+          <label for="country">Country</label>
+          <input type="text" class="inputStrip" id="country" placeholder="Country" />
+        </div>
+        <div id="btn-strip">
+          <button type="submit" class="btn-add">Add</button>
+          <button type="submit" class="btn-edit">Update</button>
+          <button type="submit" class="btn-delete">Cancel</button>
+        </div>
+      </form>
+    </div>
+    <div id="output-table">
+      <table border="1">
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+          <th>Country</th>
+          <th>Edit</th>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Connor</td>
+          <td>14</td>
+          <td>USA</td>
+          <td>
+            <button type="submit" class="btn-edit">Edit</button>
+            <button type="submit" class="btn-delete">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Ellen</td>
+          <td>Ripley</td>
+          <td>18</td>
+          <td>USA</td>
+          <td>
+            <button type="submit" class="btn-edit">Edit</button>
+            <button type="submit" class="btn-delete">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>James</td>
+          <td>Bond</td>
+          <td>30</td>
+          <td>England</td>
+          <td>
+            <button type="submit" class="btn-edit">Edit</button>
+            <button type="submit" class="btn-delete">Delete</button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
